@@ -18,10 +18,19 @@ FROM Visits as v
 WHERE
     ISNULL(t.transaction_id);
 
--- order of sql statment
+-- order to write  of sql statment
 -- SELECT
 -- FROM
 -- JOIN
 -- WHERE
 -- GROUP BY
 -- ORDER BY
+
+-- ✔ الترتيب الحقيقي لتنفيذ الاستعلام (منطقياً)
+
+-- 1️⃣ FROM
+-- 2️⃣ JOIN (وتطبيق شروط الربط ON/USING)
+-- 3️⃣ WHERE
+-- 4️⃣ GROUP BY
+-- 5️⃣ SELECT
+-- 6️⃣ ORDER BY
